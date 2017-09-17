@@ -1,8 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype on                  " required
 filetype plugin on "for taglist
-colorscheme wombat256
 syntax enable
+set background=dark
+colorscheme solarized
 set tabstop=8       " number of visual spaces per TAB
 set softtabstop=0   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
