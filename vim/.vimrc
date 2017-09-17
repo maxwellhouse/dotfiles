@@ -39,15 +39,4 @@ nmap <silent> <c-l> :wincmd l<CR>
 
 set fileencoding=utf8
 set bomb
-let g:ycm_global_ycm_extra_conf = '~/.ycmd_make_conf.py'
-let g:ycm_extra_conf_vim_data = ['&filetype']
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'lyuts/vim-rtags'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
 filetype plugin indent on
