@@ -41,3 +41,5 @@ nmap <silent> <c-l> :wincmd l<CR>
 set fileencoding=utf8
 set bomb
 filetype plugin indent on
+
+let g:ycm_global_ycm_extra_conf = '/usr/share/vim/vimfiles/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
